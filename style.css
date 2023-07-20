@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+
+
+}
+
+#navbarNav {
+    display: inline-flexbox;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#navbarNav li {
+    padding: 0 10px;
+}
+
+#navbarNav li a {
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+/*-------Introduction Section---------*/
+
+#introduction {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin-top: 5px;
+    padding: 200px;
+}
+
+#introduction h1 {
+    padding: 10px;
+    font-size: 90px;
+    text-align: center;
+    color: azure;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#introduction p {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*----------About Me---------*/
+
+#about-me {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin-top: 5px;
+    padding: 20px;
+    ;
+
+}
+
+#about-me h2 {
+
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    font-weight: 500;
+
+}
+
+#about-me-text {
+
+    font-size: 30px;
+    text-align: justify;
+    padding: 30px;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+#about-me img {
+    height: 350px;
+    width: auto;
+}
+
+#about-me-flexbox {
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+/*----------Skills----------*/
+
+#skills{
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+
+}
+#skills h2{
+
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+    font-weight: 500;
+
+}
+#skills p{
+
+    font-size: 30px;
+    text-align: justify;
+    padding: 5px;
+    color: aliceblue;
+
+}
+
+.lang{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.lang-list{
+
+    color: #DBF748;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.ed-list{
+    color: #DBF748;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+
+/*----------Contact----------*/
+
+#contact{
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+
+}
+.social{
+
+    display: inline-flexbox;
+    justify-content: space-around;
+
+}
+#contact h2{
+
+    color: aliceblue;
+
+}
+#contact a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+hr{
+    background-color: white;
+}
+#copyright{
+
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
